@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RailEase — Train Reservation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#"><span>R</span> RailEase</a>
+    <nav><a class="selected" href="#">Book tickets</a><a href="#">My bookings</a></nav>
+    <div class="user">A&nbsp; Ashwin</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">YOUR JOURNEY STARTS HERE</p>
+      <h1>Travel easy.<br><em>Arrive happy.</em></h1>
+      <p class="muted">Book your next train journey in a few simple steps.</p>
+    </section>
+
+    <section class="card">
+      <p class="tag">ONLINE RESERVATION</p>
+      <h2>Book a train ticket</h2>
+      <form>
+        <div class="grid">
+          <label>Passenger name<input placeholder="Enter passenger name"></label>
+          <label>Train number<input placeholder="For example, 12627"></label>
+          <label>Journey date<input type="date"></label>
+          <label>Class<select><option>Select class</option><option>Sleeper</option><option>AC 3 Tier</option><option>AC Chair Car</option></select></label>
+        </div>
+        <div class="route">
+          <div><small>FROM</small><strong>Bengaluru</strong></div>
+          <span class="arrow">→</span>
+          <div><small>TO</small><strong>New Delhi</strong></div>
+        </div>
+        <button type="button">Search trains&nbsp; →</button>
+        <p class="hint">Enter a train number to load its details.</p>
+      </form>
+    </section>
+    <footer>Made for smoother journeys <b>✦</b></footer>
+  </main>
+</body>
+</html>
